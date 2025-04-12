@@ -9,7 +9,13 @@ O projeto foi feito com o intuito principal para desenvolver um sistema de geren
 
 2. Estrutura do Banco de Dados
 
-Foi utilizada a biblioteca sqlite3, nativa do Python, para manipular o banco de dados meubanco.db.
+CREATE TABLE IF NOT EXISTS usuarios (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        nome TEXT NOT NULL,
+        email TEXT NOT NULL UNIQUE,
+        senha TEXT NOT NULL,
+        data_criacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    )
 
 
 ---
