@@ -25,14 +25,7 @@ CREATE TABLE IF NOT EXISTS usuarios (
 sqlite3: Biblioteca padrão do Python utilizada para interagir com o banco de dados SQLite.
 
 
----
-
-<p align="center">
-<img src="Captura de tela 2025-04-11 203642.png" width="500"        
-</p>
-
-        
-
+---   
 4. Funcionalidades Implementadas
 
 Menu de Opções
@@ -81,4 +74,11 @@ Deleta um usuário com base no seu ID.
 Filtro por ID ou Nome
 
 Permite buscar usuários pelo ID ou por parte do nome, exibindo os dados encontrados com formatação colorida.
+
+---   
+4. Imagens do terminal
+   
+<p align="center">
+<img src="Captura de tela 2025-04-11 203642.png" width="500"        
+</p>
 
