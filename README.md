@@ -27,6 +27,12 @@ sqlite3: Biblioteca padrão do Python utilizada para interagir com o banco de da
 
 ---
 
+<p align="center">
+<img src="Captura de tela 2025-04-11 203642.png" width="500"        
+</p>
+
+        
+
 4. Funcionalidades Implementadas
 
 Menu de Opções
